@@ -1,0 +1,257 @@
+
+.banner-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 36px;
+}
+/* create */
+.create{
+    background-color: #B3C8D1;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.info_text {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.info_desc{
+    font-size: 26px;
+    line-height: 28px;
+}
+/* form */
+.form{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+.form_group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.form_group:not(:last-of-type){
+    margin-bottom: 28px;
+}
+.form_label{
+    color: #4A585E;
+}
+.form-control{
+    border: 0.5px solid var(--main-blue);
+    color:#B3C8D1;
+    background-color:#fff;
+    padding: 12px 24px;
+    border-radius: 10px;  
+    font-size: 20px; 
+}
+.form_input{
+    color: var(--dark);
+}
+
+.form_select {
+    appearance: none;
+    background: url(../images/select-arrow.svg) no-repeat right;
+    background-position-x: calc(100% - 20px);
+    cursor: pointer;
+    background-color: #fff;
+    width: 100%;
+    color: var(--dark);
+}
+.divider_title{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4A585E;
+    margin-bottom: 52px;
+    text-align: center;
+    position: relative;
+}
+.divider_title::before,
+.divider_title::after{
+    content: "";
+    width: 42%;
+    height: 1px;
+    background: var(--main-blue);
+    position: absolute;
+    top: 50%;
+}
+.divider_title::before{
+    left: 0;
+}
+.divider_title::after{
+    right: 0;
+}
+.big-divider::before,
+.big-divider::after{
+    width: 46%;
+}
+
+.form_area{
+    height: 340px;
+}
+.form_col{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.form_text{
+    color:#4A585E;
+    font-size: 16px;
+}
+.form_input-price{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+/*  */
+.check_group{
+    margin-left: 120px;
+}
+.check {
+	position: absolute;
+	z-index: -1;
+}
+.check + label {
+	position: relative;
+	padding: 0 0 0 40px;
+	cursor: pointer;
+}
+.check + label:before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: 0;
+	width: 24px;
+	height: 24px;
+	border-radius: 5px;
+	background: #fff;
+    border:1px solid (--main-blue);
+	transition: .2s;
+}
+.check:checked + label:before {
+    background-image: url(../images/check-icon.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+
+.form_upload-group{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn_upload{
+    background-color: transparent;
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 16px 90px;
+}
+#upload {
+    display: none;
+  }
+  .agree_block{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .agree_group{
+    display: flex;
+    margin-bottom: 24px;
+  }
+  .agree_label{
+    font-size: 20px;
+  }
+  .agree_btn{
+    display: block;
+    width: 335px;
+    margin: 0 auto;
+  }
+  @media (max-width:1400px){
+    .divider_title::before, .divider_title::after {
+        width: 39%;
+    }
+    .big-divider::before, .big-divider::after {
+        width: 45%;
+    }
+  }
+  @media (max-width:998px){
+    .container{
+        padding: 0 150px;
+    }
+    .divider_title {
+        width: 800px;
+        margin-bottom: 42px;
+    }
+    .divider_title::before, .divider_title::after {
+        width: 38%;
+    }
+    .big-divider::before, .big-divider::after {
+        width: 44%;
+    }
+  }
+  @media (max-width:480px){
+.create .container{
+    padding: 0 10px;
+}
+.info_text {
+    align-items: start;
+    margin-bottom: 40px;
+}
+.info_desc {
+    font-size: 24px;
+    line-height: 25px;
+}
+.form {
+    width: 100%;
+}
+.divider_title {
+width: 100%;
+}
+.divider_title::before, .divider_title::after {
+    width: 29%;
+}
+.big-divider::before, .big-divider::after {
+    width: 40%;
+}
+.form_input-price {
+    flex-wrap: wrap;
+   margin-bottom: 25px;
+}
+.check_group {
+    margin-left: 0;
+}
+.agree_group {
+    width: 100%;
+}
+.check-label{
+    width: 55%;
+}
+.agree_btn {
+    margin: 0;
+}
+.footer{
+    padding-bottom: 40px;
+}
+.footer .container{
+    padding: 0 10px;
+}
+.footer_wrapper {
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_menu {
+    width: 100%;
+    /* align-items: start; */
+    gap: 15px;
+}
+.footer_menu-link {
+    font-size: 13px;
+}
+
+
+
+  }

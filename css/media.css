@@ -1,0 +1,499 @@
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 200px;
+  }
+  .card {
+    padding: 36px 36px;
+  }
+  .card_content {
+    gap: 20px;
+  }
+  .card_image {
+    width: 40%;
+  }
+  .card_desc-item {
+    padding: 10px 7px;
+  }
+  .card-btns-location {
+    width: 25%;
+  }
+  .card_btn {
+    width: 230px;
+  }
+  .card_btn-order {
+    padding: 16px 47px;
+  }
+  .banner {
+    padding-bottom: 0;
+  }
+  .banner_wrapper {
+    padding-top: 0;
+  }
+  .banner_text {
+    font-size: 32px;
+  }
+  .banner_btn {
+    width: 335px;
+    padding: 16px 30px;
+  }
+  .how-call_desc {
+    font-size: 24px;
+  }
+  .info_block-text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .knowledge_image {
+    top: 90px;
+    left: -43px;
+  }
+  .knowledge_image-clock {
+    top: -164px;
+    left: 160px;
+  }
+  .image-group-right .eclipce-blue {
+    top: -235px;
+  }
+  .knowledge_image-right {
+    top: -165px;
+    right: -597px;
+  }
+  .cost_wrapper {
+    gap: 10px;
+  }
+  .cost_item {
+    width: 30%;
+  }
+
+  .info_block {
+    height: 500px;
+    padding: 35px;
+  }
+  .slide_wrapper {
+    gap: 20px;
+  }
+  .slide_item {
+    width: 500px;
+  }
+  .prev_slide {
+    left: -65px;
+  }
+  .intro_image {
+    height: 100%;
+  }
+  .footer_wrapper {
+    gap: 60px;
+  }
+  .footer_menu {
+    gap: 20px;
+  }
+  .footer_menu-link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 998px) {
+  .header {
+    padding: 20px 60px;
+  }
+  .banner_title {
+    padding-bottom: 40px;
+  }
+  .container {
+    padding: 0 120px;
+  }
+  .card_content {
+    flex-direction: column;
+  }
+  .card_image {
+    width: 100%;
+  }
+  .card_desc {
+    width: 100%;
+  }
+  .card_desc-item {
+    padding: 10px;
+  }
+
+  .card_desc-name {
+    font-size: 22px;
+  }
+  .card_desc-price {
+    font-size: 20px;
+  }
+  .card-btns-location {
+    width: 100%;
+  }
+  .card_btn {
+    width: 100%;
+    font-size: 24px;
+  }
+  .location {
+    font-size: 20px;
+  }
+  .location_adress {
+    font-size: 20px;
+  }
+  .card_btn-order {
+    align-items: center;
+    font-size: 24px;
+  }
+  .card_bottom-text {
+    font-size: 18px;
+  }
+  .banner_wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* .banner_logo{
+    width: 90%;
+
+} */
+  .banner_text {
+    font-size: 22px;
+  }
+  .banner_btn {
+    width: 260px;
+    padding: 14px 12px;
+  }
+  .how-call {
+    padding-top: 50px;
+  }
+  .how-call_wrapper {
+    gap: 20px;
+  }
+  .how-call_title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .how-call_desc {
+    font-size: 21px;
+  }
+  .mind-image {
+    width: 85%;
+  }
+  .man-image {
+    right: -37%;
+  }
+  .eclipce-1 {
+    top: 32%;
+  }
+  .eclipce-2 {
+    top: 40%;
+    left: 57%;
+  }
+  .knowledge {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .knowledge_title {
+    font-size: 30px;
+  }
+  .knowledge_image {
+    top: 65px;
+  }
+  .knowledge_image-clock {
+    top: -140px;
+    left: 135px;
+  }
+  .eclipce-blue {
+    width: 215px;
+    height: 215px;
+  }
+  .image-group-right .eclipce-blue {
+    top: -212px;
+  }
+  .knowledge_image-right {
+    width: 222px;
+    top: -160px;
+    right: -591px;
+  }
+
+  .knowledge_block-text {
+    gap: 30px;
+  }
+  .knowledge_block-text {
+    gap: 20px;
+  }
+  .left_desc,
+  .right_desc {
+    width: 50%;
+    font-size: 20px;
+  }
+  .cost {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .cost_title {
+    margin-bottom: 30px;
+  }
+  .cost_desc {
+    width: 90%;
+    font-size: 22px;
+  }
+  .cost_text {
+    font-size: 22px;
+  }
+
+  .cost_item {
+    width: 25%;
+  }
+  .cost_text-block {
+    width: 100%;
+  }
+  .cost-block_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .cost-block_desc {
+    font-size: 16px;
+  }
+  .benfits {
+    padding-top: 80px;
+  }
+  .benfits_title {
+    margin-bottom: 32px;
+  }
+  .benfits_wrapper {
+    gap: 20px;
+  }
+  .benefits_desc {
+    margin-bottom: 0;
+  }
+  .info_wrapper {
+    gap: 20px;
+  }
+  .info_block {
+    min-height: 100%;
+    padding: 25px;
+  }
+  .info_block-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .info_block-text {
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .weight {
+    padding-top: 180px;
+  }
+  .weight_title {
+    margin-bottom: 32px;
+  }
+  .slide_item {
+    width: 50%;
+    padding: 25px;
+  }
+  .slide_desc {
+    font-size: 20px;
+  }
+  .intro_wrapper-right,
+  .intro_wrapper-left {
+    gap: 25px;
+  }
+  .intro_wrapper-right {
+    margin-left: 120px;
+  }
+  .intro_wrapper-left {
+    margin-right: 120px;
+  }
+  .price {
+    padding-top: 80px;
+  }
+  .footer {
+    padding-bottom: 40px;
+  }
+  .footer_wrapper {
+    gap: 15px;
+  }
+  .logo {
+    height: 72px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 50px;
+  }
+  .header {
+    width: 100%;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .header_menu {
+    padding-top: 32px;
+    gap: 50px;
+  }
+  .banner {
+    padding-bottom: 56px;
+    padding-top: 40px;
+  }
+  .menu_list {
+    justify-content: space-between;
+    gap: 0;
+    width: 200px;
+  }
+  .btn {
+    padding: 15px;
+    width: 190px;
+    font-size: 13px;
+  }
+  .banner_title {
+    font-size: 32px;
+  }
+  .cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .card_btn {
+    width: 100%;
+  }
+  .banner_wrapper {
+    flex-direction: column;
+  }
+  .banner_text {
+    margin-bottom: 15px;
+  }
+  .how-call_wrapper {
+    flex-direction: column;
+  }
+  .how-call_text {
+    width: 100%;
+  }
+  .how-call_image-group {
+    width: 100%;
+  }
+  .man-image {
+    right: -3%;
+    bottom: -255px;
+  }
+  .knowledge_title {
+    font-size: 28px;
+  }
+  .knowledge_image-group {
+    width: 100%;
+    height: 500px;
+  }
+  .image-group-left,
+  .image-group-right {
+    width: 100%;
+  }
+  .knowledge_image-clock {
+    top: -4px;
+    left: -101px;
+  }
+  .knowledge_image {
+    width: 242px;
+  }
+  .knowledge_image-right {
+    right: 0;
+    top: 170px;
+    left: 16px;
+  }
+  .image-group-right .eclipce-blue {
+    right: 0;
+    left: 0;
+    top: 108px;
+  }
+
+  .knowledge_block-text {
+    flex-direction: column;
+  }
+  .left_desc, .right_desc {
+    width: 100%;
+  }
+  .cost_wrapper {
+    flex-direction: column;
+  }
+  .cost_item {
+    width: 100%;
+    height: 392px;
+    padding: 10px;
+  }
+  .cost-block_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .cost-block_desc {
+    font-size: 22px;
+  }
+  .benfits_wrapper {
+    flex-direction: column-reverse;
+  }
+  .benfits_block-image {
+    width: 100%;
+  }
+  .benefits_block-text {
+    width: 100%;
+  }
+  .info_wrapper {
+    flex-direction: column;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .weight {
+    padding-top: 280px;
+  }
+  .slider {
+    height: 1155px;
+  }
+  .slide_wrapper {
+    flex-direction: column;
+  }
+  .slide_item {
+    width: 100%;
+  }
+  .slide_btn {
+    width: 35px;
+    height: 35px;
+  }
+  .prev_slide {
+    left: -45px;
+  }
+  .next_slide {
+    right: -45px;
+  }
+  .intro_wrapper-right {
+    margin-left: 0;
+    flex-direction: column-reverse;
+    padding: 0 10px;
+  }
+  .intro_wrapper-left {
+    margin-right: 0;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .intro_block-image {
+    width: 100%;
+  }
+  .intro_block-text {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .price .container {
+    padding: 0 10px;
+  }
+  .tabs {
+    gap: 20px;
+  }
+  .btn_scroll {
+    bottom: 15px;
+  }
+  .footer {
+    padding-top: 20px;
+  }
+  .footer .container {
+    padding: 0 10px;
+  }
+  .footer_wrapper {
+    flex-direction: column;
+  }
+  .footer .logo {
+    margin-bottom: 20px;
+  }
+  .footer_menu {
+    gap: 10px;
+  }
+}
